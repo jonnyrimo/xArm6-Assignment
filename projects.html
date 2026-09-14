@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Your Name</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="layout">
+
+  <aside class="sidebar">
+    <p class="sidebar__name">Your Name</p>
+    <p class="sidebar__tagline">Your role or field</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="career.html">Career</a>
+      <a href="projects.html" class="active">Projects</a>
+    </nav>
+    <div class="sidebar__footer">
+      <a href="mailto:you@example.com">Email</a>
+      <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </aside>
+
+  <main class="content">
+
+    <section class="section" style="padding-top: 4rem;">
+      <h1>Projects</h1>
+      <p>Hover a project (or tap, on mobile) to flip it and read more.</p>
+    </section>
+
+    <section class="section" style="padding-top: 0;">
+      <div class="project-grid">
+
+        <!-- One .project-card per project. Copy/paste this block to add more. -->
+        <button type="button" class="project-card">
+          <div class="project-card__inner">
+            <div class="project-card__face project-card__front">
+              <img src="images/projects/project-1.jpg" alt="Project One thumbnail">
+            </div>
+            <div class="project-card__face project-card__back">
+              <h3>Project One</h3>
+              <p>A short description of what this project is, what problem it solves, and what
+                 tools or technologies you used.</p>
+              <span class="project-card__hint">Tap again to flip back</span>
+            </div>
+          </div>
+        </button>
+
+        <button type="button" class="project-card">
+          <div class="project-card__inner">
+            <div class="project-card__face project-card__front">
+              <img src="images/projects/project-2.jpg" alt="Project Two thumbnail">
+            </div>
+            <div class="project-card__face project-card__back">
+              <h3>Project Two</h3>
+              <p>A short description of this project.</p>
+              <span class="project-card__hint">Tap again to flip back</span>
+            </div>
+          </div>
+        </button>
+
+        <button type="button" class="project-card">
+          <div class="project-card__inner">
+            <div class="project-card__face project-card__front">
+              <img src="images/projects/project-3.jpg" alt="Project Three thumbnail">
+            </div>
+            <div class="project-card__face project-card__back">
+              <h3>Project Three</h3>
+              <p>A short description of this project.</p>
+              <span class="project-card__hint">Tap again to flip back</span>
+            </div>
+          </div>
+        </button>
+
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
