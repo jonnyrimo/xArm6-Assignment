@@ -23,7 +23,7 @@ The objective is to determine the position and orientation of the paper rectangl
 
 **Demonstration:**
 
-<!-- Add demonstration video or GIF here -->
+![Paper alignment demonstration](videos/grid.gif)
 
 ### 2. Profile Orientation Detection
 
@@ -35,7 +35,7 @@ It analyses the profile cross-section to determine its orientation, providing th
 
 **Demonstration:**
 
-<!-- Add demonstration video or GIF here -->
+![Orientation detection demonstration](videos/orientation-prof.gif)
 
 ### 3. Proportional (P) Controller
 
@@ -49,4 +49,4 @@ Its purpose is to demonstrate how proportional control can be used to reduce the
 
 **Demonstration:**
 
-<!-- Add demonstration video or GIF here -->
+![P-controller demonstration](videos/p-controller.gif)
