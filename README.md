@@ -8,7 +8,8 @@ This repository contains three algorithm implementations developed to demonstrat
 main/
 ├── main-alignment-grid.py          # Align paper rectangles to the grid
 ├── main-orientation-detection.py  # Detect the orientation of the profiles
-└── main-p-controller              # Showcase of the Proportional (P) controller
+|── main-p-controller              # Showcase of the Proportional (P) controller
+└── videos                          # Gifs
 ```
 
 ## Algorithms
@@ -25,6 +26,9 @@ The objective is to determine the position and orientation of the paper rectangl
 
 ![Paper alignment demonstration](videos/grid.gif)
 
+**Full Video:**
+https://youtu.be/DKSGdH1qu2o
+
 ### 2. Profile Orientation Detection
 
 **File:** `main-orientation-detection.py`
@@ -36,6 +40,9 @@ It analyses the profile cross-section to determine its orientation, providing th
 **Demonstration:**
 
 ![Orientation detection demonstration](videos/orientation-prof.gif)
+
+**Full Video:**
+https://youtu.be/jUOoJr-z_Yw
 
 ### 3. Proportional (P) Controller
 
@@ -50,3 +57,7 @@ Its purpose is to demonstrate how proportional control can be used to reduce the
 **Demonstration:**
 
 ![P-controller demonstration](videos/p-controller.gif)
+
+**Full Video:**
+https://youtu.be/iQUSBZXovk4
+
