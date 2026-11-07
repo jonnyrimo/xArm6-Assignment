@@ -14,7 +14,7 @@ main/
 
 ## Algorithms
 
-### 1. Paper Alignment to Grid
+### 1. Profile's Projection Alignment to Grid
 
 **File:** `main-alignment-grid.py`
 
