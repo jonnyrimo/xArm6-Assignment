@@ -6,10 +6,13 @@ This repository contains three algorithm implementations developed to demonstrat
 
 ```text
 main/
-├── main-alignment-grid.py          # Align paper rectangles to the grid
+├── main-alignment-grid.py         # Align projection rectangles to the grid
 ├── main-orientation-detection.py  # Detect the orientation of the profiles
-|── main-p-controller              # Showcase of the Proportional (P) controller
-└── videos                          # Gifs
+├── main-p-controller              # Showcase of the Proportional (P) controller
+└── videos/                        # Folder containing demo GIFS for the three algorithms
+    ├── grid.gif                   # GIF of projection alignment with the precision grid
+    ├── orientation-prof.gif       # GIF of orientation detection for different profiles
+    └── p-controleer.gif           # GIF of RRT* and P controller to move the projection rectangle towards the target state
 ```
 
 ## Algorithms
